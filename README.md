@@ -40,21 +40,26 @@ The platform combines traditional e-commerce functionality with AI-powered shopp
 - Admin dashboard and management functionality, where enabled.
 - Product and order management for authorized administrators.
 
-🧰 Tech Stack
 
-Category         |         Technologies
-Frontend         |         React.js, JavaScript, CSS
-Backend          |         Node.js, Express.js
-Database         |         MongoDB Atlas, Mongoose
-AI Integration   |         Google Gemini API
-Authentication   |         JSON Web Token (JWT)
-Image Management |         Cloudinary
-API Requests     |         Axios
-Deployment       |         Render
-Version Control  |         Git, GitHub
+## 🧰 Tech Stack
 
-📁 Project Structure
+| Category | Technologies |
+|---|---|
+| Frontend | React.js, JavaScript, CSS |
+| Backend | Node.js, Express.js |
+| Database | MongoDB Atlas, Mongoose |
+| AI Integration | Google Gemini API |
+| Authentication | JSON Web Token (JWT) |
+| Image Management | Cloudinary |
+| API Requests | Axios |
+| Deployment | Render |
+| Version Control | Git, GitHub |
 
+
+
+## 📁 Project Structure
+
+```text
 ShopSmart-AI/
 ├── backend/
 │   ├── config/
@@ -64,31 +69,41 @@ ShopSmart-AI/
 │   ├── routes/
 │   ├── services/
 │   └── server.js
-│
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   └── package.json
-│
 ├── .gitignore
 └── README.md
+```
 
 
 
 🚀 Installation & Setup
 
-1. Clone the Repository
 
+### 1. Clone the Repository
+
+Clone the project from GitHub:
+
+```bash
 git clone https://github.com/asadsiddiqui08/ShopSmart-AI.git
 cd ShopSmart-AI
+```
 
-2. Backend Setup
 
+### 2. Backend Setup
+
+Navigate to the backend folder:
+
+```bash
 cd backend
 npm install
+```
 
-Create a ".env" file inside the backend folder:
+Create a `.env` file inside the backend folder:
 
+```env
 PORT=5000
 NODE_ENV=development
 MONGODB_URI=your_mongodb_connection_string
@@ -100,25 +115,37 @@ CLIENT_URL=http://localhost:5173
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
 
-Start the backend:
+Start the backend server:
 
+```bash
 npm start
+```
 
-3. Frontend Setup
+
+### 3. Frontend Setup
 
 Open another terminal:
 
+```bash
 cd frontend
 npm install
+```
 
-Create a ".env" file inside the frontend folder:
+Create a `.env` file inside the frontend folder:
 
+```env
 VITE_API_URL=http://localhost:5000/api
+```
 
 Start the frontend:
 
+```bash
 npm run dev
+```
+
+
 
 Open the local URL displayed in your terminal.
 
