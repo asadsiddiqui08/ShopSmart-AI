@@ -42,21 +42,20 @@ The platform combines traditional e-commerce functionality with AI-powered shopp
 
 🧰 Tech Stack
 
-Category| Technologies
-Frontend| React.js, JavaScript, CSS
-Backend| Node.js, Express.js
-Database| MongoDB Atlas, Mongoose
-AI Integration| Google Gemini API
-Authentication| JSON Web Token (JWT)
-Image Management| Cloudinary
-API Requests| Axios
-Deployment| Render
-Version Control| Git, GitHub
+Category         |         Technologies
+Frontend         |         React.js, JavaScript, CSS
+Backend          |         Node.js, Express.js
+Database         |         MongoDB Atlas, Mongoose
+AI Integration   |         Google Gemini API
+Authentication   |         JSON Web Token (JWT)
+Image Management |         Cloudinary
+API Requests     |         Axios
+Deployment       |         Render
+Version Control  |         Git, GitHub
 
 📁 Project Structure
 
 ShopSmart-AI/
-│
 ├── backend/
 │   ├── config/
 │   ├── controllers/
@@ -64,21 +63,17 @@ ShopSmart-AI/
 │   ├── models/
 │   ├── routes/
 │   ├── services/
-│   ├── server.js
-│   └── package.json
+│   └── server.js
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── ...
-│   ├── package.json
-│   └── ...
+│   └── package.json
 │
 ├── .gitignore
 └── README.md
+
+
 
 🚀 Installation & Setup
 
